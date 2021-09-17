@@ -8,7 +8,6 @@ export const createEl = (playerName: PlayerStates) => {
 };
 
 export const checkWinner = (arrToCheck: string[][]) => {
-  debugger;
   if (arrToCheck.flat().filter((x) => x === PlayerStates.X).length > 5
   || arrToCheck.flat().filter((x) => x === PlayerStates.O).length > 5) { return States.INVALID; }
 
