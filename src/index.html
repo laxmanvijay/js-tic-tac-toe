@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="./style.scss">
     <title>Document</title>
 </head>
-<body>    
-    <button id="btn">Click Me</button>
+<body> 
+    <div class="player-mode">
+        <button id="togglePlayerMode">Toggle player mode</button> 
+        <span id="player-mode-display">2 player mode</span>
+    </div>  
+    <div class="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="winner-container">
+        <div id="winner"></div>
+    </div>
     
-    <script src="./main.ts"></script>
+    <script src="./scripts/main.ts"></script>
 </body>
 </html>

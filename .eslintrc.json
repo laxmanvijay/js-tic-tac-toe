@@ -17,7 +17,8 @@
     "rules": {
         "import/prefer-default-export": 0,
         "func-names": 0,
-        "import/extensions": 0
+        "import/extensions": 0,
+        "no-plusplus": 0
     },
     "settings": {
         "import/resolver": {
