@@ -1,0 +1,32 @@
+{
+  "name": "parcel-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel ./src/index.html -d build --open",
+    "build": "parcel build ./src/index.html -d dist --no-source-maps",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "babel-jest": "^27.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.2.0",
+    "parcel-bundler": "^1.12.5",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "test",
+    "lint"
+  ]
+}
